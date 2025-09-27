@@ -1,0 +1,27 @@
+# Fusion+ Protocol Deployment Addresses
+# Sui Devnet Network
+
+SUI_PACKAGE_ID=0x93aa6db7a71da8c135284feeb06b85880ea561d08310ff44b20a1a473c3fe9c0
+SUI_SWAP_ESCROW_FACTORY=0x063b2cc9c8933d42136233c0dd2911224fef1706d26f4d8ce4832084a85e57cb
+SUI_RESOLVER_REGISTRY=0xbb95f31132aa40c36ab8fbf43a44759046f1583c6e9873f29d036efaac3546bd
+SUI_SECRET_REGISTRY=0xbe9c7050cf6d9333dd96e7eb1279c90d3e0e9a1593545420832b99166d381b9e
+SUI_STAKING_POOL=0x57801998c839f005d272f2628eadc52eae96c939c238896807633d33ec61479d
+UpgradeCap: 0x38a9eb1cd96f46fb817a0a7bbb7fda8bdc6bbf81950623ca36ce105d664483f7
+
+# Deployment Details
+Network: Sui Devnet (Epoch 243)
+Deployer Address: 0xed965c14c3a0e9edb3865ae650d0d6e61747591c1cea5d078b3fcb91f2ceb586
+Transaction: 2iR5MmRR7Bp59b95cNF38qsveFoJ4fw64o9qd2gRur7J
+Gas Used: 28,369,880 MIST
+
+# Test Results
+✅ Contract Compilation: Success (with warnings only)
+✅ Contract Deployment: Success
+✅ Resolver Registration: Success (staked 200 SUI)
+✅ View Functions: Working
+✅ Events: ResolverRegistered event emitted
+
+# Next Steps
+- Deploy Ethereum contracts on Anvil
+- Start orderbook and resolver services
+- Test cross-chain functionality
