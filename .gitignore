@@ -1,0 +1,46 @@
+node_modules/
+*.log
+logs/
+.env
+.env.local
+.env.*.local
+
+# Foundry
+contracts/ethereum/out/
+contracts/ethereum/cache/
+contracts/ethereum/broadcast/
+contracts/ethereum/lib/
+deployment.env
+
+# Sui
+contracts/sui/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+*.lcov
+
+# Runtime
+*.pid
+*.seed
+*.pid.lock
+
+# Dependencies
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp

@@ -1,0 +1,14 @@
+# .prettierignore
+node_modules/
+build/
+dist/
+coverage/
+*.log
+*.json.bak
+.env
+.env.local
+contracts/ethereum/out/
+contracts/ethereum/cache/
+contracts/ethereum/broadcast/
+contracts/sui/build/
+*.md
